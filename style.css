@@ -1,7 +1,486 @@
-/* * body{
-    background-color: black;
-} */
+* body{
+    background-color: rgb(14, 13, 13);
+    color: white;
+    font-family: sans-serif;
+}
 
 /* .brandlogo{
     display: flex;
 } */
+
+.topsection{
+  padding: 0px 100px;
+  display: flex;
+  gap: 100px;
+  padding-bottom: 100px;
+}
+.leftsection{
+    /* display: flex; */
+    /* gap: 0px; */
+    padding-left: 130px;
+}
+
+#leftsectionimg1{
+    position: absolute;
+    top: 40px;
+    
+}
+#leftsectionimg2{
+    width: 180px;
+    height: 320px;
+    margin-left: 70px;
+}
+.rightsection{
+    padding-right: 120px;
+}
+.navbar{
+    display: flex;
+    gap: 100px;
+    padding: 20px 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.navul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+#rightsectionnavbtn{
+    padding: 10px 40px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 5px;
+    color: rgb(177, 173, 173);
+}
+
+.rightsectionbelow{
+    padding-left: 35px;
+}
+
+#rightsectionimg1{
+    height: 70px;
+    padding-left: 40px;
+}
+#rightsectionh1{
+    font-size: 48px;
+    margin-top: 10px;
+}
+#rightsectionh4{
+    font-size: 16px;
+}
+#rightsectionp{
+    font-size: 11px;
+    color: rgb(179, 172, 172);
+    line-height: 22px;
+}
+#rightsectionbtn{
+    padding: 10px 20px;
+    background-color:rgb(43, 43, 43);
+    color: rgb(202, 195, 195);
+    font-size: 12px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+#rightsectionbtnimg{
+    width: 15px;
+    height: 18px;
+    padding-right: 15px;
+    margin-bottom: -5px;
+}
+#n399k{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+}
+
+.brandlogo{
+    display: flex;
+    list-style: none;
+    padding: 0px 100px;
+    padding-bottom: 60px;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+}
+#logoimg{
+    width: 75px;
+    height: 21px;
+}
+
+.thirdpage{
+    padding: 50px 100px;
+}
+#thirdpageimgletter{
+    margin-left: 500px;
+    width: 150px;
+    height: 50px;
+}
+.imagelist{
+    padding: 40px 100px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+#imagelistleft1p{
+    font-size: 13px;
+    margin-top: -3px;
+    line-height: 22px;
+}
+#imagelistleft1bluetooth{
+    font-size: 11px;
+    color: gray;
+}
+
+.imagelistleft2{
+    position: relative;
+    left: -20px;
+}
+#imagelistleft2p{
+    font-size: 13px;
+    margin-top: -3px;
+    line-height: 22px;
+}
+#imagelistleft2duration{
+    font-size: 11px;
+    color: gray;
+}
+
+.imagelistleft3{
+    position: relative;
+    left: -20px;
+}
+#imagelistleft3p{
+    font-size: 13px;
+    margin-top: -3px;
+    line-height: 22px;
+}
+#imagelistleft3fast{
+    font-size: 11px;
+    color: gray;
+}
+
+#imagelistleft4p{
+    font-size: 13px;
+    margin-top: -3px;
+    line-height: 18px;
+}
+#imagelistleft4support{
+    font-size: 11px;
+    color: gray;
+}
+
+.fourthsection{
+    padding: 50px 100px;
+}
+#fourthsectionimg{
+    margin-left: 500px;
+    width: 150px;
+    height: 50px;
+}
+.fourthsectionmain{
+    padding: 50px 100px;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    /* align-items: center; */
+}
+.fourthsectionright{
+    padding-top: 80px;
+}
+#fourthsectionrightp{
+    font-size: 12px;
+    color: rgb(134, 132, 132);
+    line-height: 23px;
+}
+#fourthsectionbtn{
+    padding: 8px 20px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 5px;
+    color: rgb(177, 173, 173);
+    margin-top: 20px;
+}
+#fourthsectionrightimg{
+    margin-top: 5px ;
+    margin-right: 5px;
+}
+#fourthsectionbtnspan{
+    position: relative;
+    top: -5px;
+}
+
+.fifthsection{
+    margin: 0px 220px;
+    padding: 20px 100px;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    gap: 100px;
+    border-radius: 10px;
+}
+#fifthsectionleftp{
+    font-size: 13px;
+    color: rgb(192, 188, 188);
+}
+#fifthsectionleftbtn{
+    padding: 10px 20px;
+    background-color:black;
+    color: rgb(202, 195, 195);
+    font-size: 12px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+#fifthsectionleftimg{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+.sixthsection{
+    padding: 100px;
+}
+
+#sixthsectiontopimg{
+    margin-left: 500px;
+    width: 200px;
+    height: 100px;
+}
+.headphonesection{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.headphonesection1{
+    width: 100px;
+    height: 160px;
+}
+#headphonesection1imgtop{
+    width: 70px;
+    height: 90px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+.headphonesection1black{
+    display: flex;
+    width: 100px;
+    height: 90px;
+    background-color: rgb(43, 43, 43);
+    padding: 10px;
+    border-radius: 8px;
+}
+#headphonesection1h4{
+    font-size: 11px;
+    line-height: 20px;
+    margin-top:50px;
+}
+#headphonesection1imgbottom{
+    width: 15px;
+    height: 15px;
+    margin-top: 65px;
+    margin-left: 45px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.headphonesection2{
+    width: 100px;
+    height: 160px;
+}
+#headphonesection2imgtop{
+    width: 70px;
+    height: 90px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+.headphonesection2redblack{
+    display: flex;
+    width: 100px;
+    height: 90px;
+    background-color: rgb(43, 43, 43);
+    padding: 10px;
+    border-radius: 8px;
+}
+#headphonesection2h4{
+    font-size: 11px;
+    line-height: 20px;
+    margin-top:50px;
+}
+#headphonesection2imgbottom{
+    width: 15px;
+    height: 15px;
+    margin-top: 65px;
+    margin-right: -105px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+    right: -25px;
+}
+
+.headphonesection3{
+    width: 100px;
+    height: 160px;
+}
+#headphonesection3imgtop{
+    width: 70px;
+    height: 90px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+.headphonesection3nightblack{
+    display: flex;
+    width: 100px;
+    height: 90px;
+    background-color: rgb(43, 43, 43);
+    padding: 10px;
+    border-radius: 8px;
+}
+#headphonesection3h4{
+    font-size: 11px;
+    line-height: 20px;
+    margin-top:50px;
+}
+#headphonesection3imgbottom{
+    width: 15px;
+    height: 15px;
+    margin-top: 65px;
+    margin-right: -105px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+    right: -18px;
+}
+
+.headphonesection4{
+    width: 100px;
+    height: 160px;
+}
+#headphonesection4imgtop{
+    width: 70px;
+    height: 90px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+.headphonesection4blue{
+    display: flex;
+    width: 100px;
+    height: 90px;
+    background-color: rgb(43, 43, 43);
+    padding: 10px;
+    border-radius: 8px;
+}
+#headphonesection4h4{
+    font-size: 11px;
+    line-height: 20px;
+    margin-top:50px;
+}
+#headphonesection4imgbottom{
+    width: 15px;
+    height: 15px;
+    margin-top: 65px;
+    margin-right: -105px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+    right: -42px;
+}
+
+.headphonesection5{
+    width: 100px;
+    height: 160px;
+}
+#headphonesection5imgtop{
+    width: 70px;
+    height: 90px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+.headphonesection5twilight{
+    display: flex;
+    width: 100px;
+    height: 90px;
+    background-color: rgb(43, 43, 43);
+    padding: 10px;
+    border-radius: 8px;
+}
+#headphonesection5h4{
+    font-size: 11px;
+    line-height: 20px;
+    margin-top:50px;
+}
+#headphonesection5imgbottom{
+    width: 15px;
+    height: 15px;
+    margin-top: 65px;
+    margin-right: -105px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+    right: -10px;
+}
+
+.footersection{
+    padding-left: 300px;
+    padding-bottom: 100px;
+    display: flex;
+    gap: 100px;
+    color: rgb(134, 133, 133);
+    font-size: 11px;
+    line-height: 25px;
+}
+
+.footersectionpart1{
+    padding-top: 20px;
+}
+#footersectionpart1img1{
+    position: relative;
+    top: 40px;
+    right: 70px;
+}
+
+.footersectionpartul{
+  list-style: none;
+}
+#footersectionpartli{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+#footersectionpart4btnout{
+    padding: 15px 10px;
+    background-color: rgb(43, 43, 43);
+    border: none;
+    border-radius: 5px;
+    color: rgb(177, 172, 172);
+    margin-bottom: 30px;
+}
+#footersectionpart4btninside{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    margin-left: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.footeruparrow{
+    position: relative;
+    right: -50px;
+    top: 70px;
+
+}
